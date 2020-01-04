@@ -1,0 +1,18 @@
+# babel
+.babel-cache/
+
+# build
+dist/
+
+# coverage
+coverage/
+
+# dependencies
+node_modules/
+
+# misc
+.idea
+.gitattributes
+.vscode
+*.log*
+**/.*/

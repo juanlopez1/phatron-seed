@@ -1,0 +1,73 @@
+{
+  "name": "phatron-seed",
+  "version": "1.0.0",
+  "description": "A seed project with Phaser and Electron.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start-dev": "concurrently \"electron ./electron/main.dev.js\" \"node index.js\"",
+    "start-prod": "electron ./electron/main.prod.js",
+    "build": "gulp build",
+    "lint": "gulp lint"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "electron": "10.1.2",
+    "phaser": "3.24.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.6",
+    "@babel/plugin-proposal-optional-chaining": "7.11.0",
+    "@babel/preset-env": "7.11.5",
+    "babel-loader": "8.1.0",
+    "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "concurrently": "5.3.0",
+    "css-hot-loader": "1.4.4",
+    "css-loader": "4.3.0",
+    "del": "5.1.0",
+    "eslint": "7.9.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "file-loader": "6.1.0",
+    "friendly-errors-webpack-plugin": "1.7.0",
+    "gulp": "4.0.2",
+    "gulp-cli": "2.3.0",
+    "gulp-eslint": "6.0.0",
+    "gulp-if": "3.0.0",
+    "gulp-json-editor": "2.5.4",
+    "gulp-load-plugins": "2.0.4",
+    "html-webpack-plugin": "4.5.0",
+    "husky": "4.3.0",
+    "mini-css-extract-plugin": "0.11.2",
+    "node-sass": "4.14.1",
+    "optimize-css-assets-webpack-plugin": "5.0.4",
+    "sass-loader": "10.0.2",
+    "style-loader": "1.2.1",
+    "terser-webpack-plugin": "4.2.2",
+    "webpack": "4.44.2",
+    "webpack-dev-server": "3.11.0",
+    "webpack-stream": "6.1.0",
+    "webpack-subresource-integrity": "1.4.1",
+    "winston": "3.3.3"
+  },
+  "engines": {
+    "node": ">=12.18.4"
+  },
+  "keywords": [
+    "babel",
+    "dotenv",
+    "electron",
+    "eslint",
+    "gulp",
+    "husky",
+    "phaser",
+    "webpack",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanlopez1/phatron-seed.git"
+  },
+  "author": "Juan Manuel López",
+  "license": "MIT"
+}

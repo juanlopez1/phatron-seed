@@ -1,0 +1,44 @@
+{
+  "clean": {
+    "dist": [
+      "dist/"
+    ],
+    "displayName": "clean old build"
+  },
+  "config": {
+    "path": ".env.prod",
+    "displayName": "load production config"
+  },
+  "copy": {
+    "dist": {
+      "src": {
+        "path": "public/assets/**/*",
+        "base": "public/assets/"
+      },
+      "dest": "dist/assets",
+      "displayName": "copy game assets"
+    }
+  },
+  "package": {
+    "dist": {
+      "src": "./package.json",
+      "dest": "dist/",
+      "displayName": "copy and format package.json"
+    }
+  },
+  "eslint": {
+    "src": [
+      "src/**/*.js",
+      "test/**/*.js"
+    ],
+    "dest": "src",
+    "displayName": "run eslint in src folder"
+  },
+  "webpack": {
+    "dist": {
+      "src": "src/game.js",
+      "dest": "dist/assets/js",
+      "displayName": "webpack bundle"
+    }
+  }
+}
