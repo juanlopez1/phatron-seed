@@ -1,0 +1,43 @@
+{
+  "name": "phatron-seed",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start": "electron index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron": "^7.1.10",
+    "phaser": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-lodash": "^6.0.0",
+    "jest": "^25.1.0",
+    "jest-canvas-mock": "^2.2.0",
+    "lodash": "^4.17.15"
+  },
+  "engines": {
+    "node": ">=12.14.0"
+  },
+  "keywords": [
+    "phaser",
+    "electron",
+    "eslint",
+    "jest",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanlopez1/phatron-seed.git"
+  },
+  "author": "Juan Manuel López",
+  "license": "MIT"
+}
