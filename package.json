@@ -22,7 +22,7 @@
     "eslint-plugin-lodash": "^6.0.0",
     "jest": "^25.1.0",
     "jest-canvas-mock": "^2.2.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "engines": {
     "node": ">=12.14.0"
